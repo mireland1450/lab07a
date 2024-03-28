@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyTV</title>
+    <!-- local css file in public directory -->
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+      <header>
+        <h1> <%= show.showname %> </h1>
+      </header>
+      <main>
+         <img src="<%= show.imgp %>"> 
+        <p>
+          <%= show.descript %> 
+        </p>
+      </main>
+      <a href="/select">back to shows</a>
+</body>
+</html>
